@@ -14,6 +14,6 @@ variable "backend_container_name" {
 }
 
 variable "backend_key" {
-  description = "Name of the Terraform state file."
+  description = "The key for the backend state file"
   type        = string
 }
